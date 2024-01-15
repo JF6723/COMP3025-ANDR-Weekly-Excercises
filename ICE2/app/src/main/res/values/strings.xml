@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">COMP3025G-W2024-Week2</string>
+    <string name="clickMeButtonString">Click Me Button</string>
 </resources>
