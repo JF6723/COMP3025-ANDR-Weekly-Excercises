@@ -8,6 +8,7 @@
     <string name="add">\u002B</string>
     <string name="subtract">\uF068</string>
     <string name="plus_minus">\uE43C</string>
+    <string name="equals">\u003D</string>
     <string name="zero">\u0030</string>
     <string name="one">\u0031</string>
     <string name="two">\u0032</string>
