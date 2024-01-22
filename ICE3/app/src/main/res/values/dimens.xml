@@ -2,4 +2,6 @@
 <resources>
     <dimen name="resultTextViewSize">80sp</dimen>
     <dimen name="px_10">10dp</dimen>
+    <dimen name="mx_10">10dp</dimen>
+    <dimen name="buttonTextSize">48sp</dimen>
 </resources>

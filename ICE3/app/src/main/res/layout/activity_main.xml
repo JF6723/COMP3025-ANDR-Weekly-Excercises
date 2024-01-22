@@ -28,6 +28,33 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:id="@+id/secondRow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstRow">
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="C"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="@dimen/mx_10"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/percentButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="@dimen/mx_10"
+            android:textSize="@dimen/buttonTextSize" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
