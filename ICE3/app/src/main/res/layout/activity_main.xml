@@ -43,8 +43,9 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/mx_10"
             android:layout_weight="1"
+            android:fontFamily="@font/fa_solid_900"
             android:tag="clear"
-            android:text="C"
+            android:text="@string/clear"
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
@@ -53,8 +54,31 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/mx_10"
             android:layout_weight="1"
+            android:fontFamily="@font/fa_solid_900"
             android:tag="percent"
-            android:text="%"
+            android:text="@string/percent"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/backspaceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/mx_10"
+            android:layout_weight="1"
+            android:fontFamily="@font/fa_solid_900"
+            android:tag="backspace"
+            android:text="@string/back_space"
+            android:textSize="@dimen/buttonTextSize" />
+
+        <Button
+            android:id="@+id/divideButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/mx_10"
+            android:layout_weight="1"
+            android:fontFamily="@font/fa_solid_900"
+            android:tag="divide"
+            android:text="@string/divide"
             android:textSize="@dimen/buttonTextSize" />
     </LinearLayout>
 

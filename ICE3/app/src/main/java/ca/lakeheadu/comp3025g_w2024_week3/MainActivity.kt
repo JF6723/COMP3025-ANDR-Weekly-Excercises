@@ -27,6 +27,10 @@ class MainActivity : AppCompatActivity()
         percentButton.setOnClickListener { view ->processOperatorButtons(view)}
     }
 
+    /**
+     * This method processes any operator button that is clicked
+     * @param view [View]
+     */
     private fun processOperatorButtons(view: View)
     {
         Log.i("operator", view.tag.toString())
