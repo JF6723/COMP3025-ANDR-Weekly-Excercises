@@ -7,6 +7,10 @@ android {
     namespace = "ca.lakeheadu.comp3025g_w2024_week3"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "ca.lakeheadu.comp3025g_w2024_week3"
         minSdk = 21

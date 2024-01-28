@@ -44,9 +44,11 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/mx_10"
             android:layout_weight="1"
+            android:backgroundTint="#ACACAC"
             android:fontFamily="@font/fa_solid_900"
             android:tag="clear"
             android:text="@string/clear"
+            android:textColor="@color/black"
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
@@ -55,9 +57,11 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/mx_10"
             android:layout_weight="1"
+            android:backgroundTint="#ACACAC"
             android:fontFamily="@font/fa_solid_900"
             android:tag="percent"
             android:text="@string/percent"
+            android:textColor="@color/black"
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
@@ -66,9 +70,11 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/mx_10"
             android:layout_weight="1"
+            android:backgroundTint="#ACACAC"
             android:fontFamily="@font/fa_solid_900"
             android:tag="backspace"
             android:text="@string/back_space"
+            android:textColor="@color/black"
             android:textSize="@dimen/buttonTextSize" />
 
         <Button
@@ -77,6 +83,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/mx_10"
             android:layout_weight="1"
+            android:backgroundTint="#FFC107"
             android:fontFamily="@font/fa_solid_900"
             android:tag="divide"
             android:text="@string/divide"
@@ -132,6 +139,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/mx_10"
             android:layout_weight="1"
+            android:backgroundTint="#FFC107"
             android:fontFamily="@font/fa_solid_900"
             android:tag="multiply"
             android:text="@string/multiply"
@@ -187,6 +195,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/mx_10"
             android:layout_weight="1"
+            android:backgroundTint="#FFC107"
             android:fontFamily="@font/fa_solid_900"
             android:tag="subtract"
             android:text="@string/subtract"
@@ -242,6 +251,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/mx_10"
             android:layout_weight="1"
+            android:backgroundTint="#FFC107"
             android:fontFamily="@font/fa_solid_900"
             android:tag="add"
             android:text="@string/add"
@@ -264,10 +274,12 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/mx_10"
             android:layout_weight="1"
+            android:backgroundTint="#ACACAC"
             android:fontFamily="@font/fa_solid_900"
             android:tag="plus_minus"
             android:text="@string/plus_minus"
-            android:textSize="@dimen/buttonTextSize" />
+            android:textSize="@dimen/buttonTextSize"
+            android:textColor="@color/black" />
 
         <Button
             android:id="@+id/zeroButton"
@@ -297,6 +309,7 @@
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/mx_10"
             android:layout_weight="1"
+            android:backgroundTint="#FFC107"
             android:fontFamily="@font/fa_solid_900"
             android:tag="equals"
             android:text="@string/equals"
