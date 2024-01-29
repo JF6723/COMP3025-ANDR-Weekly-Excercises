@@ -14,6 +14,8 @@ import ca.lakeheadu.comp3025g_w2024_week4.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity()
 {
     private lateinit var binding: ActivityMainBinding
+    private var resultString: String = ""
+
     override fun onCreate(savedInstanceState: Bundle?)
     {
         super.onCreate(savedInstanceState)
@@ -67,6 +69,18 @@ class MainActivity : AppCompatActivity()
 
     private fun processNumberButtons(view: View)
     {
-        binding.resultTextView.text = view.tag.toString()
+        if(view.tag.toString() == ".")
+        {
+            if(!resultString.contains("."))
+            {
+                resultString += view.tag.toString()
+            }
+        }
+        else
+        {
+            resultString += view.tag.toString()
+        }
+
+        binding.resultTextView.text = resultString
     }
 }
