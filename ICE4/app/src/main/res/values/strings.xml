@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">COMP3025G-W2024-Week4</string>
+    <string name="clear">\u0043</string>
+    <string name="back_space">\uF55A</string>
+    <string name="percent">\u0025</string>
+    <string name="divide">\uF529</string>
+    <string name="multiply">\uF00D</string>
+    <string name="add">\u002B</string>
+    <string name="subtract">\uF068</string>
+    <string name="plus_minus">\uE43C</string>
+    <string name="equals">\u003D</string>
+    <string name="zero">\u0030</string>
+    <string name="one">\u0031</string>
+    <string name="two">\u0032</string>
+    <string name="three">\u0033</string>
+    <string name="four">\u0034</string>
+    <string name="five">\u0035</string>
+    <string name="six">\u0036</string>
+    <string name="seven">\u0037</string>
+    <string name="eight">\u0038</string>
+    <string name="nine">\u0039</string>
+    <string name="decimal">.</string>
+</resources>
