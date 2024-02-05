@@ -55,18 +55,21 @@ class Calculator (binding: ActivityMainBinding)
 
     private fun processNumberButtons(view: View)
     {
-        if(view.tag.toString() == ".")
+        when (view.tag.toString())
         {
-            if(!m_resultString.contains("."))
+            "." ->
+                {
+                    if(!this.m_resultString.contains("."))
+                    {
+                        this.m_resultString += view.tag.toString()
+                    }
+                }
+            else ->
             {
-                m_resultString += view.tag.toString()
+                this.m_resultString += view.tag.toString()
             }
         }
-        else
-        {
-            m_resultString += view.tag.toString()
-        }
 
-        this.m_binding.resultTextView.text = m_resultString
+        this.m_binding.resultTextView.text = this.m_resultString
     }
 }
